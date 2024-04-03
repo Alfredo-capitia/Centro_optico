@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  box-sizing: border-box;
+  color-scheme: white;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: #000;
+}
+
+.container {
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 0.5rem 2rem;
+}
+
+.navegation {
+  align-items: center;
+  justify-content: center;
+  display: block;
+}
+.navegation ul {
+  align-items: center;
+  text-align: center;
+  display: none;
+  padding: 5rem 0;
+  gap: 230px;
+}
+.navegation ul li {
+  align-items: center;
+}
+.navegation ul li a {
+  color: white;
+  font-size: 25px;
+  padding: 3rem 0;
+  text-transform: uppercase;
+}/*# sourceMappingURL=css.css.map */
